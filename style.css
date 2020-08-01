@@ -1,0 +1,109 @@
+/* #region  GLOBAL  *************** */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgray;
+}
+
+.container {
+  width: 940px;
+  height: 100%;
+  background: rgb(232, 232, 232);
+  margin: 0 auto;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+/* #endregion */
+
+/* #region  HEADER  *************** */
+header {
+  width: 100%;
+  height: 60px;
+  background: black;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+#logo {
+  height: 60px;
+  width: 200px;
+  background: rgb(211, 211, 211);
+  float: left;
+}
+
+nav {
+  float: left;
+  margin-left: 300px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  background: rgb(200, 200, 200);
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 5px;
+  padding: 15px 5px 5px;
+  margin: 5px 5px 0 0;
+  text-align: center;
+}
+/* #endregion */
+
+section.hero {
+  width: 100%;
+  height: 400px;
+  background: rgb(150, 150, 150);
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+section.features {
+  width: 940px;
+  height: 400px;
+  background: rgb(200, 200, 200);
+  padding: 5px 0;
+  margin: 0 auto 5px;
+}
+
+section.organize {
+  width: 100%;
+  height: 400px;
+  background: rgb(150, 150, 150);
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+section.share {
+  width: 940px;
+  height: 400px;
+  background: rgb(200, 200, 200);
+  padding: 5px 0;
+  margin: 0 auto 5px;
+}
+
+section.get {
+  width: 100%;
+  height: 100px;
+  background: rgb(0,0,0);
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background: rgb(211, 211, 211);
+  padding: 5px 0;
+}
