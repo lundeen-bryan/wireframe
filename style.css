@@ -8,7 +8,6 @@ body {
 .container {
   width: 940px;
   height: 100%;
-  background: rgb(232, 232, 232);
   margin: 0 auto;
 }
 
@@ -49,30 +48,52 @@ nav li {
   font-size: 18px;
 }
 
+nav li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);  
+}
+
+nav li a:hover, nav li a:active {
+  color: rgb(150, 150, 150);
+  text-decoration: underline;
+}
+
 .button {
   width: 150px;
   height: 30px;
-  background: rgb(200, 200, 200);
+  background: linear-gradient(#c8c8c8, #929292);
   border: 1px solid rgb(150, 150, 150);
   border-radius: 5px;
   padding: 15px 5px 5px;
   margin: 5px 5px 0 0;
   text-align: center;
+  cursor: pointer;
 }
+
+.button a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+.button:hover, .button:active {
+  background: linear-gradient(#929292, #c8c8c8);
+}
+
 /* #endregion */
 
 /* #region  HERO  *************** */
 section.hero {
   width: 100%;
   height: 400px;
-  background: rgb(150, 150, 150);
+  background: url(bgplaceholder.jpg);
+  background-size: 100% 100%;
   padding: 5px 0;
   margin-bottom: 5px;
 }
 
 .heroimage {
   width: 480px;
-  height: 300px;
+  height: 380px;
   background: rgb(150, 150, 150);
   margin: 10px 0 0 20px;
 }
@@ -82,7 +103,6 @@ section.hero {
   float: left;
   margin-left: 20px;
   padding-top: 40px;
-  background: rgb(150, 150, 150);
 }
 
 section.hero h1 {
@@ -106,8 +126,8 @@ section.hero .button {
 /* #region  FEATURES  *************** */
 section.features {
   width: 940px;
-  height: 450px;
-  background: rgb(150, 150, 150);
+  height: 350px;
+  background: rgb(220,220,220);
   padding: 5px 0;
   margin: 0 auto 5px;
 }
@@ -130,7 +150,6 @@ section.features aside {
   float: left;
   text-align: center;
   margin-left: 20px;
-  background: rgb(225, 225, 225);
 }
 
 section.features aside img {
@@ -144,7 +163,7 @@ section.features aside img {
 /* #region  ORGANIZE  *************** */
 section.organize {
   width: 100%;
-  height: 400px;
+  height: 260px;
   background: rgb(220,220,220);
   padding: 5px 0;
   margin-bottom: 5px;
@@ -169,7 +188,7 @@ section.organize img, section.share img {
 /* #region  SHARE  *************** */
 section.share {
   width: 940px;
-  height: 400px;
+  height: 260px;
   background: rgb(220,220,220);
   padding: 5px 0;
   margin: 0 auto 5px;
