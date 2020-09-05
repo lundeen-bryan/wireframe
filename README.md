@@ -5,14 +5,15 @@
 > This course is taught by Geoff Blake from tentononline.com but the course was sold on Udemy by Stone River eLearning. 
 
 ---
-### Link To Project
 
-See the [Wireframing](project-url) on Linkify.
+### Live Demo
+
+[View this project on Netlify](https://lundeen-bryan-wireframe.netlify.app/)
 
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
+Sections headers used to reference location of readme file.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
