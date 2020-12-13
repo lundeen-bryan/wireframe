@@ -45,12 +45,36 @@
   font-size: 1.125rem; /* 18px */
 }
 
+.header__link:link,
+.header__link:visited {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+
+.header__link:hover,
+.header__link:active {
+  /*   color: #969696; */
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.header__button-link:link,
+.header__button-link:visited {
+  color: rgb(100, 100, 100); /* rgb(100, 100, 100) */
+  text-decoration: none;
+}
+
+.header__button-link:hover,
+.header__button-link:active {
+  transition: color 0.2s;
+}
+
 .header__button,
 .hero__button,
 .get__button {
   width: 7.8125vw; /* 150px */
   height: 2.7778vh; /* 30px */
-  background: #c8c8c8;
+  background: linear-gradient(#c8c8c8, #969696); /*  #c8c8c8;*/
   text-align: center;
   padding: 15px 5px 5px;
   margin: 5px 5px 0 0;
@@ -58,6 +82,15 @@
   border-radius: 5px;
 }
 
+.header__button:hover,
+.hero__button:hover,
+.get__button:hover,
+.header__button:active,
+.hero__button:active,
+.get__button:active {
+  cursor: pointer;
+  background: linear-gradient(#969696, #c8c8c8);
+}
 .hero__button {
   width: 11.7188vw; /* 225px */
   height: 3.7037vh; /* 40px */
@@ -68,7 +101,9 @@
 .hero {
   width: 100%;
   height: 37.037vh; /* 400px */
-  background: #c8c8c8; /* rgb(200, 200, 200) */
+  background: url(/bgplaceholder.jpg);
+  background-size: 100% 100%;
+  /*  background: #c8c8c8; rgb(200, 200, 200) */
   padding: 0.3125rem 0; /* 5px */
   margin-bottom: 0.3125rem; /* 5px */
 }
@@ -86,7 +121,7 @@
   float: left;
   margin-left: 1.25rem; /* 20px */
   padding-top: 2.5rem; /* 40px */
-  background: #969696;
+  /*   background: #969696; */
 }
 
 .hero__headline {
@@ -104,7 +139,7 @@
 .footer__container {
   width: 59.375vw; /* 940px changed to 1140px */
   height: 100%;
-  background: #e1e1e1; /* rgb(225, 225, 225) */
+  /*   background: #e1e1e1; /* rgb(225, 225, 225) */
   margin: 0 auto;
 }
 
@@ -146,7 +181,9 @@
 .organize {
   width: 100%;
   height: 27.7778vh; /* 300px */
-  background: #c8c8c8; /* rgb(200, 200, 200) */
+  background: url(/bgplaceholder.jpg);
+  background-size: 100% 100%;
+  /* background: #c8c8c8;  rgb(200, 200, 200) */
   padding: 0.3125rem 0; /* 5px */
   margin-bottom: 0.3125rem; /* 5px */
 }
