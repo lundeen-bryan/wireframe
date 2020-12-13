@@ -46,6 +46,7 @@ Time | Comments
 18.42 | Had to change the header container height to 64 to make the button fit
 20.01 | Commit updated hero section
 20.42 | Changed the sizes to more modern look for the features aside section.
+21.36 | Had to darken the get section, finished up to footer section Git commit
 
 [Back To The Top](#wireframeshtml)
 
