@@ -45,6 +45,7 @@ Time | Comments
 16.58 | I would name the container "hero__container" and put the text inside "Hero Container"
 18.42 | Had to change the header container height to 64 to make the button fit
 20.01 | Commit updated hero section
+20.42 | Changed the sizes to more modern look for the features aside section.
 
 [Back To The Top](#wireframeshtml)
 
