@@ -50,6 +50,7 @@ Time | Comments
 21.45 | In this section we start doing placeholder images, he recommends placehold.it but there is also a vscode addin you can use called [Placeholder Images](https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-placeholder-images) by Jake Wilson.
 22.24 | Adding some placeholder images in the background and some interactivity to buttons
 23.08 | Added button roll-over effect with linear-gradient color changes.
+23.30 | Finished by chaning the size of each section to full view hight. In the future I should be able to use this as a template for a wireframe and just change the components and dimensions.
 
 [Back To The Top](#wireframeshtml)
 
