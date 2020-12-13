@@ -20,7 +20,7 @@ Brief TOC  here.
 
 ## Description
 
-Essentially this is just a collection of notes about this short 3-hr course on building wireframes in HTML.  
+Essentially this is just a collection of notes about this short 3-hr course on building wireframes in HTML.
 
 #### Technologies
 
@@ -35,11 +35,16 @@ Essentially this is just a collection of notes about this short 3-hr course on b
 
 
 Time | Comments
------|--------- 
+-----|---------
 12/09| Starting this course again for fun
 00.07| Created initial project, reset previous Git commit to https://github.com/lundeen-bryan/wireframe
-
-
+12/12 | Saturday building the basic structure
+16.36 | Created initial html and style files
+16.45 | Don't forget to use "margin 0 auto" to center elements in a div
+16.50 | Use 940 width for containers inside divs
+16.58 | I would name the container "hero__container" and put the text inside "Hero Container"
+18.42 | Had to change the header container height to 64 to make the button fit
+20.01 | Commit updated hero section
 
 [Back To The Top](#wireframeshtml)
 
@@ -55,7 +60,7 @@ None
 
 ## Project Status
 
-The current status of this project is in development. 
+The current status of this project is in development.
 
 [Back To The Top](#wireframeshtml)
 

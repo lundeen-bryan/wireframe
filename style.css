@@ -1,0 +1,149 @@
+/*=============================================
+=           UTILITY                          =
+=============================================*/
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+/*=====  End of Utility  ======*/
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.header {
+  width: 100%;
+  height: 5.9259vh; /* 64px */
+  background: #000000; /* rgb(0, 0, 0) */
+  padding: 0.3125rem 0; /* 5px */
+  margin-bottom: 0.3125rem; /* 5px */
+}
+
+.header__logo {
+  width: 10.4167vw; /* 200px */
+  height: 5.9259vh; /* 64px */
+  background: #c8c8c8;
+  float: left;
+}
+
+.header__nav {
+  float: left;
+  margin-left: 28.75rem; /* 340px changed to 460px for screen size*/
+}
+
+.header__item {
+  display: inline;
+  margin-right: 1.25rem; /* 20px */
+  font-weight: bold;
+  font-size: 1.125rem; /* 18px */
+}
+
+.header__button,
+.hero__button {
+  width: 7.8125vw; /* 150px */
+  height: 2.7778vh; /* 30px */
+  background: #c8c8c8;
+  text-align: center;
+  padding: 15px 5px 5px;
+  margin: 5px 5px 0 0;
+  border: 1px solid #969696;
+  border-radius: 5px;
+}
+
+.hero__button {
+  width: 11.7188vw; /* 225px */
+  height: 3.7037vh; /* 40px */
+  padding-top: 1.5625rem; /* 25px */
+  font-size: 1.25rem; /* 20px */
+}
+
+.hero {
+  width: 100%;
+  height: 37.037vh; /* 400px */
+  background: #c8c8c8; /* rgb(200, 200, 200) */
+  padding: 0.3125rem 0; /* 5px */
+  margin-bottom: 0.3125rem; /* 5px */
+}
+
+.hero__image {
+  width: 47%; /* 480px shared in hero container so =50% */
+  height: 35.1852vh; /* 380px */
+  background: #969696;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+.hero__content {
+  width: 47%; /* 400px shared in hero container so =50% */
+  float: left;
+  margin-left: 1.25rem; /* 20px */
+  padding-top: 2.5rem; /* 40px */
+  background: #969696;
+}
+
+.hero__headline {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.hero__paragraph {
+  margin-bottom: 60px;
+}
+
+.header__container,
+.hero__container,
+.features__container,
+.organize__container,
+.get__container,
+.footer__container {
+  width: 59.375vw; /* 940px changed to 1140px */
+  height: 100%;
+  background: #e1e1e1; /* rgb(225, 225, 225) */
+  margin: 0 auto;
+}
+
+.features {
+  width: 59.375vw; /* 940px */
+  height: 41.6667vh; /* 450px */
+  background: #969696; /* rgb(150, 150, 150) */
+  margin: 0 auto 0.3125rem; /* 0 auto always centers the contents then 5px margin bottom*/
+  padding: 0.3125rem 0; /* 5px */
+}
+
+.organize {
+  width: 100%;
+  height: 27.7778vh; /* 300px */
+  background: #c8c8c8; /* rgb(200, 200, 200) */
+  padding: 0.3125rem 0; /* 5px */
+  margin-bottom: 0.3125rem; /* 5px */
+}
+
+.share {
+  width: 59.375vw; /* 940px */
+  height: 41.6667vh; /* 450px */
+  background: #969696; /* rgb(150, 150, 150) */
+  margin: 0 auto;
+  padding: 0.3125rem 0; /* 5px */
+}
+
+.get {
+  width: 100%;
+  height: 9.2593vh; /* 100px */
+  background: #000000; /* rgb(0, 0, 0) */
+  padding: 0.3125rem 0; /* 5px */
+  margin-bottom: 0.3125rem; /* 5px */
+}
+
+.footer {
+  width: 100%;
+  height: 5.5556vh; /* 60px */
+  background: #c8c8c8; /* rgb(200, 200, 200) */
+  padding: 0.3125rem 0; /* 5px */
+}
